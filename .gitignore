@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Project
+data/boards/           # keep raw CSVs local (use LFS if you need to push)
+runs/
+models/
+figs/*.png
+*.zip
